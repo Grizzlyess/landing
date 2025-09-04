@@ -1,9 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body {
+    background-image: url("./wallpaper.jpg");
+}
 h2{
-    font-family: 'Story Script';
+    font-family: 'Lobster Two';
 }
 h6 {
+    font-family: 'Libre Baskerville';
     text-align: justify;
 }
 p {
@@ -14,5 +20,10 @@ form{
 }
 
 .info{
-    height: 300px;
+    height: auto;
+}
+.cor-fundo {
+    background-color: rgba(128, 111, 99, 0.8);
+    border-radius: 10px;
+    color: white;
 }
