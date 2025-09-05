@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body{
+    background-image: url(./wallpaper.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    font-family: 'Lobster Two';
+}
+h6 {
+    font-family: 'Libre Baskerville';
+    text-align: justify;
+}
+p {
+    font-family: 'Fjalla One';
+}
+form{
+    height: 300px;
+}
+
+.info{
+    height: auto;
+}
+.cor-fundo {
+    background-color: rgba(128, 111, 99, 0.8);
+    border-radius: 10px;
+    color: white;
+}

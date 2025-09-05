@@ -4,6 +4,10 @@
 
 body {
     background-image: url("./wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 h2{
     font-family: 'Lobster Two';
