@@ -2,8 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
+body, html{
+    height: 100%;
+}
+
 body{
-    background-image: url(./wallpaper.jpg);
+    background-image: url(../wallpaper.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,7 +23,7 @@ p {
     font-family: 'Fjalla One';
 }
 form{
-    height: 300px;
+    height: 400px;
 }
 
 .info{
@@ -29,4 +33,10 @@ form{
     background-color: rgba(128, 111, 99, 0.8);
     border-radius: 10px;
     color: white;
+}
+
+.carousel-item img{
+    max-height: 500px;
+    max-width: 300px;
+    border-radius: 10px;
 }
