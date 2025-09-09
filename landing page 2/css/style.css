@@ -7,10 +7,11 @@ body, html{
 }
 
 body{
-    background-image: url(../wallpaper.jpg);
+    background-image: url(../img/trees.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 h2{
     font-family: 'Lobster Two';
@@ -30,9 +31,9 @@ form{
     height: auto;
 }
 .cor-fundo {
-    background-color: rgba(128, 111, 99, 0.8);
+    background-color: rgba(183, 224, 238, 0.896);
     border-radius: 10px;
-    color: white;
+    color: black;
 }
 
 .carousel-item img{
