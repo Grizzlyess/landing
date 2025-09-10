@@ -12,7 +12,27 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    align-content: space-around;
 }
+
+form{
+    height: 450px;
+}
+
+.row{
+    gap: 20px;
+}
+
+.cor-fundo {
+    background-color: rgba(183, 224, 238, 0.896);
+    border-radius: 10px;
+    color: black;
+}
+
+ul{
+   text-align: justify;
+}
+
 h2{
     font-family: 'Lobster Two';
 }
@@ -23,21 +43,19 @@ h6 {
 p {
     font-family: 'Fjalla One';
 }
-form{
-    height: 400px;
+
+.col{
+    border: 1px solid rgb(223, 255, 204);
 }
 
-.info{
-    height: auto;
-}
-.cor-fundo {
-    background-color: rgba(183, 224, 238, 0.896);
-    border-radius: 10px;
-    color: black;
+.imagens{
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-bottom: 10px;
 }
 
-.carousel-item img{
-    max-height: 500px;
-    max-width: 300px;
+.img-fluid{
     border-radius: 10px;
+    width: 300px;
+    max-height: 200px;
 }
